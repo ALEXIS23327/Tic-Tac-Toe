@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     background-image: url('imagenes/Fondo2.jpg');  
     background-repeat: no-repeat; 
@@ -42,7 +42,7 @@ header nav a {
     align-items: center;
     font-size: 3em; 
     cursor: pointer;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: #FFFFFF; 
     border-radius: 10px; 
 }
