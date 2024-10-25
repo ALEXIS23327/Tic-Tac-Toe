@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <span id="status">Comenzar partida</span>
+        <button id="select-player" class="btn">Seleccionar Jugador</button>
+        <button id="restart" class="btn">Reiniciar Partida</button>
+        <button id="toggle-best-times" class="btn">Mostrar Mejores Tiempos</button>
+    </div>
+    
+    <div class="game-layout">
+        <div class="game-container">
+            <div class="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+        </div>
+    
+        <!-- Tabla de mejores tiempos, oculta al inicio -->
+        <div class="best-times-container" id="best-times-container" style="display: none;">
+            <h2>Mejores tiempos</h2>
+            <table id="best-times">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tiempo (segundos)</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
